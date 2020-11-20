@@ -1,26 +1,24 @@
 li {
-  list-style: none;
-}
+  list-style: none; }
+
 .wrap {
-  width: 100%;
-  .container {
+  width: 100%; }
+  .wrap .container {
     width: 1090px;
     margin: 0 auto;
-    position: relative;
-  }
-  .header {
+    position: relative; }
+  .wrap .header {
     background: #333333;
-    height: 36px;
-    .nav {
+    height: 36px; }
+    .wrap .header .nav {
       float: right;
-      line-height: 36px;
-    }
-    .title {
+      line-height: 36px; }
+    .wrap .header .title {
       float: left;
       line-height: 36px;
       font-size: 12px;
-      cursor: pointer;
-      h3 {
+      cursor: pointer; }
+      .wrap .header .title h3 {
         float: left;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -30,8 +28,4 @@ li {
         font-size: 12px;
         margin-left: 10px;
         text-align: center;
-        border-right: 1px solid #cccccc;
-      }
-    }
-  }
-}
+        border-right: 1px solid #cccccc; }
