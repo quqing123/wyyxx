@@ -1,0 +1,53 @@
+.main11 {
+  width: 100%;
+  height: 600px;
+  background: url("//yanxuan.nosdn.127.net/6c20940c7b36612b0ed4d7b0a8a4aafe.jpg"); }
+  .main11 .main11-row {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 300px;
+    z-index: 9; }
+    .main11 .main11-row .login-box {
+      z-index: 9;
+      position: absolute;
+      top: 50px;
+      right: 30px;
+      height: 480px;
+      width: 386px;
+      background: #fff; }
+      .main11 .main11-row .login-box h3 {
+        text-align: center;
+        line-height: 30px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 50px; }
+      .main11 .main11-row .login-box p {
+        margin: 20px auto;
+        padding: 0 40px; }
+        .main11 .main11-row .login-box p input {
+          border: none;
+          width: 200px;
+          height: 40px;
+          border: 1px solid #b27b57; }
+      .main11 .main11-row .login-box .login {
+        float: left;
+        display: block;
+        width: 100px;
+        height: 40px;
+        background: #b27b57;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        margin-left: 80px; }
+      .main11 .main11-row .login-box .add {
+        display: block;
+        float: left;
+        width: 100px;
+        height: 40px;
+        background: #b27b57;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        margin-left: 30px; }

@@ -1,0 +1,26 @@
+.main-listt {
+  margin-top: 20px;
+  .mainn-row {
+    width: 1090px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    .mainn-title {
+      font-size: 12px;
+      color: #333;
+      height: 24px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      i {
+        display: block;
+        span {
+          font-size: 12px;
+          display: inline-block;
+        }
+      }
+    }
+    .main-xia {
+      margin-top: 20px;
+    }
+  }
+}

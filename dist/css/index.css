@@ -1,63 +1,109 @@
+@charset "UTF-8";
 .banner {
-  margin-top: 5px; }
+  margin-top: 5px;
+  overflow: hidden; }
 
-.new {
-  height: 510px;
-  margin-top: 30px;
+.new1 {
   width: 1090px;
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  color: #333; }
-  .new .new-title {
-    padding-bottom: 20px; }
-    .new .new-title .n-left {
+  height: 510px;
+  margin-top: 30px; }
+  .new1 .new-title {
+    width: 100%;
+    padding-bottom: 20px;
+    height: 48px; }
+    .new1 .new-title .n-left {
       float: left; }
-      .new .new-title .n-left a {
+      .new1 .new-title .n-left a {
         color: #333; }
-        .new .new-title .n-left a h3 {
+        .new1 .new-title .n-left a h3 {
           font-size: 28px;
           font-weight: bold;
           float: left;
           margin-right: 20px; }
-      .new .new-title .n-left small {
-        padding-top: 13px;
-        display: inline-block;
-        line-height: 1;
-        color: #333; }
-    .new .new-title .n-right {
+      .new1 .new-title .n-left a:hover h3 {
+        color: #be9a4d; }
+      .new1 .new-title .n-left span {
+        display: block;
+        float: left;
+        color: #333;
+        font-size: 12px;
+        margin-top: 12px; }
+    .new1 .new-title .n-right {
       float: right; }
-      .new .new-title .n-right a {
+      .new1 .new-title .n-right a {
         color: #333;
         font-size: 12px; }
-  .new .new-xia {
-    width: 1200px;
-    height: 364px;
-    overflow: hidden;
-    position: relative; }
-    .new .new-xia .item-list {
-      margin-top: 10px; }
-      .new .new-xia .item-list .pro-shangpin {
+  .new1 .jian-pre {
+    display: block;
+    background-color: #e7e2d7;
+    position: absolute;
+    z-index: 9;
+    top: 200px;
+    left: -60px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 80;
+    border-radius: 500px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-right: 6px; }
+  .new1 .jian-nex {
+    display: block;
+    background-color: #e7e2d7;
+    position: absolute;
+    z-index: 9;
+    top: 200px;
+    right: -60px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 80;
+    border-radius: 500px;
+    font-size: 40px;
+    color: #fff;
+    padding-left: 12px; }
+  .new1 .new-xia {
+    width: 1090px;
+    overflow: hidden; }
+    .new1 .new-xia .item-list {
+      width: 2000px;
+      margin-right: 10px;
+      float: left;
+      text-align: center;
+      font-size: 13px; }
+      .new1 .new-xia .item-list .pro-shangpin {
+        float: left;
+        width: 265px;
         margin-right: 10px;
-        float: left; }
-        .new .new-xia .item-list .pro-shangpin .s-top {
-          position: relative;
+        overflow: hidden; }
+        .new1 .new-xia .item-list .pro-shangpin .s-top {
+          width: 265px;
+          height: 265px;
           margin-bottom: 8px;
-          overflow: hidden; }
-          .new .new-xia .item-list .pro-shangpin .s-top a img {
+          overflow: hidden;
+          position: relative;
+          background-color: #f4f4f4;
+          cursor: pointer; }
+          .new1 .new-xia .item-list .pro-shangpin .s-top a img {
+            display: block;
             width: 265px;
             height: 265px;
-            display: block; }
-          .new .new-xia .item-list .pro-shangpin .s-top .shang-jie {
+            position: absolute;
+            top: 0;
+            left: 0; }
+          .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie {
             background: #f38245;
             text-align: left;
             position: absolute;
             bottom: 0;
             left: 0;
-            width: 100%;
-            height: 30px;
-            padding-right: 10px; }
-            .new .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left {
+            height: 30px; }
+            .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left {
               max-width: 200px;
               height: 36px;
               background: #f38245;
@@ -67,27 +113,27 @@
               padding-right: 14px;
               float: left;
               border-top-right-radius: 5px; }
-              .new .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title {
+              .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title {
                 font-size: 12px;
                 height: 15px;
                 line-height: 1;
-                margin-top: 5px;
-                margin-left: 0;
-                padding-top: 0; }
-                .new .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title span {
+                margin-top: 5px; }
+                .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title span {
                   font-size: 12px;
                   color: #fff;
                   text-align: center; }
-              .new .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage {
+              .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage {
                 font-size: 14px;
                 height: 20px;
                 line-height: 14px;
                 margin-top: -1px;
                 font-weight: 700; }
-                .new .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage span {
+                .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage span {
                   color: #fff;
                   font-size: 14px; }
-            .new .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-right {
+            .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-right {
+              float: right;
+              width: 162px;
               color: #fff;
               text-align: left;
               overflow: hidden;
@@ -98,39 +144,642 @@
               white-space: nowrap;
               margin-left: 4px;
               padding-left: 4px; }
-        .new .new-xia .item-list .pro-shangpin .s-bottom .b-tags {
-          height: 20px;
-          color: #fff;
-          margin: 0 auto 3px;
-          overflow: hidden;
-          text-align: center; }
-          .new .new-xia .item-list .pro-shangpin .s-bottom .b-tags span {
-            margin-left: 6px;
-            display: inline-block;
+        .new1 .new-xia .item-list .pro-shangpin .s-bottom {
+          width: 265px; }
+          .new1 .new-xia .item-list .pro-shangpin .s-bottom .b-tags {
             height: 20px;
+            color: #fff;
+            margin: 0 auto 3px;
+            overflow: hidden;
+            text-align: center; }
+            .new1 .new-xia .item-list .pro-shangpin .s-bottom .b-tags span {
+              margin-left: 6px;
+              display: inline-block;
+              height: 20px;
+              line-height: 20px;
+              font-size: 12px;
+              padding: 0 5px;
+              background-color: #e36844; }
+          .new1 .new-xia .item-list .pro-shangpin .s-bottom h4 {
+            width: 166px;
+            margin: 0 auto 4px;
+            max-height: 40px;
             line-height: 20px;
-            font-size: 12px;
-            padding: 0 5px;
-            background-color: #e36844; }
-        .new .new-xia .item-list .pro-shangpin .s-bottom h4 {
-          width: 166px;
-          margin: 0 auto 4px;
-          max-height: 40px;
-          line-height: 20px;
-          overflow: hidden;
-          text-align: center; }
-          .new .new-xia .item-list .pro-shangpin .s-bottom h4 span {
-            font-weight: bold;
-            font-size: 14px; }
-        .new .new-xia .item-list .pro-shangpin .s-bottom p {
-          font-size: 13px;
-          line-height: 13px;
-          color: #d4282d;
-          padding: 1px 9px;
+            overflow: hidden;
+            text-align: center;
+            cursor: pointer; }
+            .new1 .new-xia .item-list .pro-shangpin .s-bottom h4 span {
+              font-weight: bold;
+              font-size: 14px; }
+          .new1 .new-xia .item-list .pro-shangpin .s-bottom h4:hover span {
+            color: #f38245; }
+          .new1 .new-xia .item-list .pro-shangpin .s-bottom p {
+            font-size: 13px;
+            line-height: 13px;
+            color: #d4282d;
+            padding: 1px 9px;
+            position: relative; }
+            .new1 .new-xia .item-list .pro-shangpin .s-bottom p .now-price {
+              margin-left: 76px; }
+            .new1 .new-xia .item-list .pro-shangpin .s-bottom p .yuan-price {
+              margin-left: 6px;
+              color: #ccc;
+              text-decoration: line-through; }
+      .new1 .new-xia .item-list .pro-shangpin:hover .m1 {
+        display: none; }
+      .new1 .new-xia .item-list .pro-shangpin:hover .m2 {
+        display: block; }
+      .new1 .new-xia .item-list .pro-shangpin:hover {
+        background-color: #f4f0ea; }
+
+.popular {
+  padding: 60px 0;
+  background: #f4f0ea; }
+  .popular .popular-title {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding-bottom: 20px; }
+    .popular .popular-title .p-left {
+      float: left; }
+      .popular .popular-title .p-left a {
+        text-decoration: none;
+        display: block;
+        float: left; }
+        .popular .popular-title .p-left a h3 {
+          font-size: 28px;
+          font-weight: bold;
+          float: left;
+          margin-right: 20px;
+          color: #333; }
+      .popular .popular-title .p-left a:hover h3 {
+        color: #be9a4d; }
+      .popular .popular-title .p-left .left2 {
+        overflow: hidden;
+        position: relative; }
+        .popular .popular-title .p-left .left2 .p-list {
           position: relative; }
-          .new .new-xia .item-list .pro-shangpin .s-bottom p .now-price {
-            margin-left: 76px; }
-          .new .new-xia .item-list .pro-shangpin .s-bottom p .yuan-price {
-            margin-left: 6px;
-            color: #ccc;
-            text-decoration: line-through; }
+          .popular .popular-title .p-left .left2 .p-list .item {
+            text-align: center;
+            float: left;
+            font-size: 14px;
+            width: 70px;
+            height: 28px;
+            line-height: 28px;
+            margin-top: 5px;
+            margin-right: 55px; }
+            .popular .popular-title .p-left .left2 .p-list .item a {
+              color: #333;
+              cursor: pointer;
+              display: block;
+              width: 70px;
+              height: 28px; }
+          .popular .popular-title .p-left .left2 .p-list .item:hover a {
+            color: #f38245;
+            border-bottom: 2px solid #f38245; }
+    .popular .popular-title .p-right {
+      float: right; }
+      .popular .popular-title .p-right a {
+        color: #333; }
+    .popular .popular-title .p-right:hover a {
+      color: #f38245; }
+  .popular .p-con {
+    overflow: hidden; }
+    .popular .p-con .p-con-left {
+      width: 390px;
+      height: 580px;
+      margin-left: 0;
+      margin-top: 20px;
+      background-color: #fff;
+      overflow: hidden;
+      float: left; }
+      .popular .p-con .p-con-left .p-con-leftt {
+        margin-bottom: 18px;
+        border-bottom: 1px solid #f4f0ea; }
+        .popular .p-con .p-con-left .p-con-leftt a img {
+          width: 320px;
+          height: 320px;
+          margin: 40px 35px; }
+      .popular .p-con .p-con-left .s-bottom .b-tags {
+        height: 20px;
+        color: #fff;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        text-align: center; }
+        .popular .p-con .p-con-left .s-bottom .b-tags span {
+          margin-left: 6px;
+          display: inline-block;
+          height: 20px;
+          line-height: 20px;
+          font-size: 12px;
+          padding: 0 5px;
+          background-color: #e36844; }
+      .popular .p-con .p-con-left .s-bottom h4 {
+        line-height: 26px;
+        max-height: 52px;
+        margin: 0 auto 13px;
+        font-size: 18px;
+        width: 248px;
+        text-align: center;
+        cursor: pointer; }
+        .popular .p-con .p-con-left .s-bottom h4 span {
+          font-weight: bold;
+          font-size: 18px; }
+      .popular .p-con .p-con-left .s-bottom h4:hover span {
+        color: #f38245; }
+      .popular .p-con .p-con-left .s-bottom p {
+        font-size: 16px;
+        line-height: 13px;
+        color: #d4282d;
+        padding: 1px 9px;
+        position: relative; }
+        .popular .p-con .p-con-left .s-bottom p .now-price {
+          margin-left: 142px; }
+        .popular .p-con .p-con-left .s-bottom p .yuan-price {
+          margin-left: 6px;
+          color: #ccc;
+          text-decoration: line-through; }
+    .popular .p-con .p-con-right {
+      background-color: #fff;
+      overflow: hidden;
+      width: 223px;
+      height: 280px;
+      float: left;
+      margin-left: 10px;
+      text-align: center;
+      margin-top: 20px; }
+      .popular .p-con .p-con-right .p-con-leftt {
+        margin-bottom: 18px;
+        border-bottom: 1px solid #f4f0ea; }
+        .popular .p-con .p-con-right .p-con-leftt a img {
+          width: 180px;
+          height: 180px; }
+      .popular .p-con .p-con-right .s-bottom h4 {
+        width: 136px;
+        margin: 0 auto 4px;
+        line-height: 16px;
+        max-height: 52px;
+        margin-bottom: 5px;
+        text-align: center;
+        cursor: pointer; }
+        .popular .p-con .p-con-right .s-bottom h4 span {
+          font-weight: bold;
+          font-size: 14px; }
+      .popular .p-con .p-con-right .s-bottom h4:hover span {
+        color: #f38245; }
+      .popular .p-con .p-con-right .s-bottom p {
+        font-size: 16px;
+        line-height: 13px;
+        color: #d4282d;
+        padding: 1px 9px;
+        position: relative; }
+    .popular .p-con .pro-shangpin {
+      background-color: #fff;
+      overflow: hidden;
+      width: 223px;
+      height: 280px;
+      float: left;
+      margin-left: 10px;
+      text-align: center;
+      margin-top: 20px;
+      float: left;
+      position: relative; }
+      .popular .p-con .pro-shangpin .s-top {
+        border-bottom: 1px solid #f4f0ea; }
+        .popular .p-con .pro-shangpin .s-top a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+          .popular .p-con .pro-shangpin .s-top a img {
+            width: 180px;
+            height: 180px; }
+        .popular .p-con .pro-shangpin .s-top .shang-jie {
+          background: #f38245;
+          text-align: left;
+          position: absolute;
+          bottom: 98px;
+          left: 0;
+          width: 100%;
+          height: 30px;
+          padding-right: 10px; }
+          .popular .p-con .pro-shangpin .s-top .shang-jie .back-left {
+            max-width: 200px;
+            height: 36px;
+            background: #f38245;
+            margin-top: -6px;
+            z-index: 1;
+            padding-left: 8px;
+            padding-right: 14px;
+            float: left;
+            border-top-right-radius: 5px; }
+            .popular .p-con .pro-shangpin .s-top .shang-jie .back-left .b-title {
+              font-size: 12px;
+              height: 15px;
+              line-height: 1;
+              margin-top: 5px;
+              margin-left: 0;
+              padding-top: 0; }
+              .popular .p-con .pro-shangpin .s-top .shang-jie .back-left .b-title span {
+                font-size: 12px;
+                color: #fff;
+                text-align: center; }
+            .popular .p-con .pro-shangpin .s-top .shang-jie .back-left .jiage {
+              font-size: 14px;
+              height: 20px;
+              line-height: 14px;
+              margin-top: -1px;
+              font-weight: 700; }
+              .popular .p-con .pro-shangpin .s-top .shang-jie .back-left .jiage span {
+                color: #fff;
+                font-size: 14px; }
+          .popular .p-con .pro-shangpin .s-top .shang-jie .back-right {
+            color: #fff;
+            text-align: left;
+            overflow: hidden;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-left: 4px;
+            padding-left: 4px; }
+      .popular .p-con .pro-shangpin .s-bottom .b-tags {
+        height: 20px;
+        color: #fff;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        text-align: center; }
+        .popular .p-con .pro-shangpin .s-bottom .b-tags span {
+          margin-left: 6px;
+          display: inline-block;
+          height: 20px;
+          line-height: 20px;
+          font-size: 12px;
+          padding: 0 5px;
+          background-color: #e36844; }
+      .popular .p-con .pro-shangpin .s-bottom h4 {
+        width: 166px;
+        margin: 0 auto 4px;
+        max-height: 40px;
+        line-height: 20px;
+        overflow: hidden;
+        text-align: center; }
+        .popular .p-con .pro-shangpin .s-bottom h4 span {
+          font-weight: bold;
+          font-size: 14px; }
+      .popular .p-con .pro-shangpin .s-bottom p {
+        font-size: 13px;
+        line-height: 13px;
+        color: #d4282d;
+        padding: 1px 9px;
+        position: relative;
+        margin: 0 auto; }
+        .popular .p-con .pro-shangpin .s-bottom p .yuan-price {
+          color: #ccc;
+          text-decoration: line-through; }
+
+.xianshi {
+  margin-bottom: 50px; }
+  .xianshi .xianshi-con .xianshi-row {
+    padding-top: 58px;
+    width: 1090px;
+    margin: 0 auto;
+    position: relative; }
+  .xianshi .xianshi-con .hd {
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 18px; }
+    .xianshi .xianshi-con .hd .h3 {
+      float: left;
+      color: #333; }
+      .xianshi .xianshi-con .hd .h3 h3 {
+        font-size: 28px;
+        font-weight: bold; }
+    .xianshi .xianshi-con .hd a {
+      color: #333;
+      float: right; }
+  .xianshi .xianshi-con .xianshi-tupian {
+    height: 429px;
+    width: 100%;
+    overflow: hidden; }
+    .xianshi .xianshi-con .xianshi-tupian .daojishi {
+      background: url("//yanxuan.nosdn.127.net/a0d0bd891ebb55308dbddda736ed53cc.png?imageView&type=webp") center center no-repeat #fff;
+      position: relative;
+      height: 429px;
+      width: 224px;
+      padding-top: 60px;
+      float: left;
+      text-align: center; }
+      .xianshi .xianshi-con .xianshi-tupian .daojishi .changci {
+        height: 36px;
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 11px;
+        color: #615548; }
+      .xianshi .xianshi-con .xianshi-tupian .daojishi .line {
+        width: 20px;
+        height: 2px;
+        margin: 0 auto 18px;
+        background: #61594b; }
+      .xianshi .xianshi-con .xianshi-tupian .daojishi .endtimes {
+        margin-bottom: 18px;
+        font-size: 18px;
+        color: #615548;
+        line-height: 22px;
+        height: 22px; }
+      .xianshi .xianshi-con .xianshi-tupian .daojishi .time-count {
+        height: 40px;
+        margin-bottom: 50px;
+        text-align: center; }
+        .xianshi .xianshi-con .xianshi-tupian .daojishi .time-count .w-cd {
+          width: 40px;
+          color: #fff;
+          font-size: 18px;
+          line-height: 40px;
+          background-color: #615548; }
+      .xianshi .xianshi-con .xianshi-tupian .daojishi .CK-Btn {
+        display: block;
+        width: 110px;
+        height: 30px;
+        margin: 0 auto;
+        line-height: 30px;
+        color: #fff;
+        font-size: 14px;
+        background-color: #a7936e;
+        cursor: pointer;
+        border-radius: 15px; }
+      .xianshi .xianshi-con .xianshi-tupian .daojishi .link {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        opacity: 0; }
+    .xianshi .xianshi-con .xianshi-tupian .xianshi-right {
+      margin-left: 224px;
+      height: 429px; }
+      .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le {
+        float: left;
+        width: 433px;
+        height: 214px;
+        border: 1px solid #f0ece4;
+        border-left: none; }
+        .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .le {
+          float: left;
+          width: 180px;
+          height: 180px;
+          cursor: pointer;
+          overflow: hidden;
+          margin: 3px 0; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .le a {
+            position: relative;
+            display: block; }
+            .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .le a div {
+              width: 100%;
+              height: 100%; }
+              .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .le a div img {
+                width: 180px;
+                height: 180px;
+                border: 1px solid transparent; }
+        .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri {
+          margin-left: 180px;
+          height: 187px;
+          padding-top: 14px; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri h2 {
+            overflow: hidden;
+            max-height: 52px;
+            line-height: 26px;
+            font-size: 16px;
+            color: #666; }
+            .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri h2 a {
+              color: #333; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri h2:hover a {
+            color: #f38245; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri p {
+            height: 24px;
+            font-size: 14px;
+            line-height: 24px;
+            color: #999;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemnum {
+            padding: 14px 0 8px;
+            height: 36px; }
+            .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemnum .itemBar {
+              float: left;
+              position: relative;
+              width: 152px;
+              height: 10px;
+              margin: 2px 0;
+              border: 1px solid #f2cecd;
+              border-radius: 5px;
+              overflow: hidden; }
+              .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemnum .itemBar .itemBarin {
+                width: 132px;
+                background-color: #ffe5e5;
+                height: 10px; }
+            .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemnum .itemTips {
+              height: 14px;
+              margin-left: 162px;
+              font-size: 14px;
+              color: #999;
+              line-height: 14px; }
+              .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemnum .itemTips span {
+                font-size: 14px;
+                color: #999;
+                line-height: 14px; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemPrice {
+            font-size: 14px; }
+            .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemPrice .aprice {
+              color: #be4141; }
+              .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemPrice .aprice .yuan {
+                font-size: 18px;
+                margin-left: 4px; }
+              .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemPrice .aprice .apriceIn {
+                margin-right: 12px;
+                font-weight: bold;
+                font-size: 24px; }
+            .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemPrice .oprice {
+              color: #999; }
+              .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .itemPrice .oprice .data {
+                font-size: 14px;
+                text-decoration: line-through; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .QGG {
+            display: block;
+            width: 118px;
+            height: 31px;
+            margin-top: 18px;
+            line-height: 31px;
+            text-align: center;
+            font-size: 16px;
+            background-color: #be4141;
+            color: #fff; }
+          .xianshi .xianshi-con .xianshi-tupian .xianshi-right .QG-le .ri .QGG:hover .QGG {
+            opacity: 0.8; }
+
+.jujia {
+  margin-top: 60px;
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .jujia .jujia-row {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative; }
+    .jujia .jujia-row .jj-index {
+      overflow: hidden; }
+      .jujia .jujia-row .jj-index .jj-header {
+        padding-bottom: 20px;
+        overflow: hidden; }
+        .jujia .jujia-row .jj-index .jj-header .hd-le a {
+          color: #333; }
+          .jujia .jujia-row .jj-index .jj-header .hd-le a h3 {
+            font-size: 28px;
+            font-weight: bold;
+            float: left;
+            margin-right: 20px; }
+        .jujia .jujia-row .jj-index .jj-header .hd-ri {
+          float: right; }
+          .jujia .jujia-row .jj-index .jj-header .hd-ri .ri-list {
+            display: inline-block;
+            font-size: 14px;
+            padding-top: 14px; }
+            .jujia .jujia-row .jj-index .jj-header .hd-ri .ri-list span b {
+              margin: 0 10px; }
+            .jujia .jujia-row .jj-index .jj-header .hd-ri .ri-list span a {
+              color: #333; }
+          .jujia .jujia-row .jj-index .jj-header .hd-ri a {
+            display: inline-block;
+            line-height: 1;
+            margin-left: 30px;
+            color: #333;
+            cursor: pointer;
+            font-size: 14px; }
+      .jujia .jujia-row .jj-index .item-list {
+        width: 2000px;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block; }
+        .jujia .jujia-row .jj-index .item-list .pro-shangpin {
+          margin-right: 10px;
+          float: left;
+          height: 100%;
+          min-height: 1px; }
+          .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top {
+            position: relative;
+            margin-bottom: 8px;
+            overflow: hidden; }
+            .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top a img {
+              width: 265px;
+              height: 265px;
+              display: block; }
+            .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie {
+              background: #f38245;
+              text-align: left;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              height: 30px; }
+              .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie .back-left {
+                max-width: 200px;
+                height: 36px;
+                background: #f38245;
+                margin-top: -6px;
+                z-index: 1;
+                padding-left: 8px;
+                padding-right: 14px;
+                float: left;
+                border-top-right-radius: 5px; }
+                .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title {
+                  font-size: 12px;
+                  height: 15px;
+                  line-height: 1;
+                  margin-top: 5px; }
+                  .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title span {
+                    font-size: 12px;
+                    color: #fff;
+                    text-align: center; }
+                .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage {
+                  font-size: 14px;
+                  height: 20px;
+                  line-height: 14px;
+                  margin-top: -1px;
+                  font-weight: 700; }
+                  .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage span {
+                    color: #fff;
+                    font-size: 14px; }
+              .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-top .shang-jie .back-right {
+                float: right;
+                width: 162px;
+                color: #fff;
+                text-align: left;
+                overflow: hidden;
+                height: 30px;
+                line-height: 30px;
+                font-size: 12px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-left: 4px;
+                padding-left: 4px; }
+          .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom {
+            width: 265px; }
+            .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom .b-tags {
+              height: 20px;
+              color: #fff;
+              margin: 0 auto 3px;
+              overflow: hidden;
+              text-align: center; }
+              .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom .b-tags span {
+                margin-left: 6px;
+                display: inline-block;
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                padding: 0 5px;
+                background-color: #e36844; }
+            .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom h4 {
+              width: 166px;
+              margin: 0 auto 4px;
+              max-height: 40px;
+              line-height: 20px;
+              overflow: hidden;
+              text-align: center;
+              cursor: pointer; }
+              .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom h4 span {
+                font-weight: bold;
+                font-size: 14px; }
+            .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom h4:hover span {
+              color: #f38245; }
+            .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom p {
+              font-size: 13px;
+              line-height: 13px;
+              color: #d4282d;
+              padding: 1px 9px;
+              position: relative; }
+              .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom p .now-price {
+                margin-left: 76px; }
+              .jujia .jujia-row .jj-index .item-list .pro-shangpin .s-bottom p .yuan-price {
+                margin-left: 6px;
+                color: #ccc;
+                text-decoration: line-through; }
+
+.move .img-W {
+  transition: all 2s; }
+
+.move:hover .img-W {
+  opacity: 0.5;
+  transform: scale(1.2); }
+
+.swiper-container {
+  --swiper-theme-color: #ff6600;
+  --swiper-pagination-color: #00ff33;
+  /* 两种都可以 */
+  --swiper-navigation-color: #ff6600;
+  /* 单独设置按钮颜色 */
+  --swiper-navigation-size: 30px;
+  /* 设置按钮大小 */ }

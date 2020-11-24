@@ -2,7 +2,9 @@ li {
   list-style: none; }
 
 html {
-  position: relative; }
+  position: relative;
+  background: #ffff;
+  width: 100%; }
 
 .container {
   width: 1090px;
@@ -231,7 +233,8 @@ html {
           left: 0;
           background-color: #fff;
           display: none;
-          border: 1px solid #cccccc; }
+          border: 1px solid #cccccc;
+          z-index: 9999; }
           .top .top2 .header1 .tabNav .tabnav-item .yinchu-nav .list-group {
             padding: 0 10px;
             max-width: 140px;
@@ -267,27 +270,24 @@ html {
       border-bottom: 3px solid #cc9756; }
 
 .headerg {
-  position: fixed;
-  top: -28px;
-  left: 128px;
+  width: 100%;
   height: 50px;
-  display: none; }
+  line-height: 50px;
+  background: #fff;
+  z-index: 999;
+  border-bottom: 1px solid #ccc; }
   .headerg .headerc .logoshouye {
-    position: absolute;
-    top: 24px;
-    left: 0; }
+    display: block;
+    float: left; }
     .headerg .headerc .logoshouye .logo-tubiao {
       display: block;
       background: url("../img/j3.png") no-repeat 0 -438px;
       height: 30px;
       width: 126px;
-      margin-right: 10px; }
+      margin-right: 10px;
+      margin-top: 14px; }
   .headerg .headerc .tabNav {
-    position: absolute;
-    top: 11px;
-    left: 126px;
-    width: 838px;
-    margin-top: 12px; }
+    float: left; }
     .headerg .headerc .tabNav .tabnav-item {
       float: left;
       padding: 5px 15px;
@@ -299,11 +299,12 @@ html {
       .headerg .headerc .tabNav .tabnav-item .yinchu-nav {
         width: 1018px;
         position: absolute;
-        top: 30px;
+        top: 50px;
         left: 0;
         background-color: #fff;
         display: none;
-        border: 1px solid #cccccc; }
+        border: 1px solid #cccccc;
+        z-index: 999; }
         .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group {
           padding: 0 10px;
           max-width: 140px;
@@ -336,53 +337,325 @@ html {
       display: block; }
   .headerg .headerc .search {
     position: relative;
-    margin-top: 16px; }
+    float: left;
+    margin-top: 14px; }
     .headerg .headerc .search .sousub {
       background: url(../img/j3.png) no-repeat 1px -544px;
-      width: 90px;
+      width: 50px;
       height: 28px;
       cursor: pointer;
-      position: absolute;
-      right: 100px;
-      top: 32px;
-      line-height: 38px;
+      margin-top: 8px;
       text-align: center;
       color: #fff;
-      font-size: 16px; }
+      font-size: 16px;
+      margin-left: 14px; }
   .headerg .headerc .user {
     position: relative;
-    float: right; }
+    float: left;
+    margin-top: 14px; }
     .headerg .headerc .user a .user-img {
       background: url(../img/j3.png) no-repeat 0 -786px;
       display: block;
       height: 22px;
-      width: 20px;
-      position: absolute;
-      top: 26px;
-      right: 114px; }
+      width: 20px; }
   .headerg .headerc .cartz {
-    float: right;
+    float: left;
     position: relative;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 14px; }
     .headerg .headerc .cartz .cart1 {
       background: url(../img/j3.png) no-repeat 0 -204px;
       display: block;
       width: 24px;
-      height: 24px;
-      position: absolute;
-      top: 24px;
-      right: 58px; }
+      height: 24px; }
     .headerg .headerc .cartz .cartnum {
       background: url(../img/j3.png) no-repeat 0 -51px;
       display: block;
       height: 19px;
       width: 19px;
       position: absolute;
-      top: 18px;
-      right: 48px; }
+      top: -4px;
+      right: -8px; }
     .headerg .headerc .cartz .shuliang {
       color: #fff;
       text-align: center;
       line-height: 20px;
       margin-top: -1px;
       font-size: 14px; }
+
+.fix-left {
+  z-index: 9999;
+  position: fixed;
+  top: 62px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #fff; }
+  .fix-left .fix-left-item1 {
+    background: url("//yanxuan.nosdn.127.net/7c1853dd59b79d823ad3c4f3a0330049.png?imageView&type=webp") bottom no-repeat;
+    font-size: 16px;
+    color: #bb3343;
+    text-align: center;
+    line-height: 38px;
+    height: 38px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-weight: 700;
+    cursor: default;
+    padding: 0; }
+  .fix-left .fix-left-item {
+    width: 108px;
+    height: 36px;
+    padding: 1px 11px 0;
+    text-align: left;
+    position: relative;
+    display: table;
+    cursor: pointer; }
+    .fix-left .fix-left-item img {
+      position: absolute;
+      top: 2px;
+      left: 12px;
+      width: 30px;
+      height: 30px; }
+    .fix-left .fix-left-item span {
+      vertical-align: middle;
+      display: table-cell;
+      line-height: 14px;
+      font-size: 12px;
+      padding-left: 36px;
+      color: #333; }
+  .fix-left .fix-left-item:hover span {
+    color: #bb3343;
+    font-weight: 700; }
+  .fix-left .fix-left-item:after {
+    content: "";
+    display: block;
+    width: 88px;
+    border-bottom: 1px solid #e2ded6;
+    position: absolute;
+    bottom: -1px;
+    left: 11px;
+    z-index: 1; }
+
+.fixedTool {
+  z-index: 9999;
+  display: none;
+  position: fixed;
+  top: 62px;
+  right: 0;
+  background: #fff; }
+  .fixedTool .er-download {
+    display: block;
+    color: #333;
+    margin-bottom: 5px; }
+    .fixedTool .er-download .err {
+      height: 64px;
+      margin-bottom: 8px; }
+      .fixedTool .er-download .err span {
+        background: url(../img/err.png) no-repeat;
+        display: block;
+        width: 70px;
+        height: 70px; }
+    .fixedTool .er-download .fixedtool-downText1 {
+      line-height: 17px;
+      color: #666;
+      text-align: center;
+      font-size: 12px; }
+    .fixedTool .er-download .fixedtool-downText2 {
+      line-height: 17px;
+      color: #bc3b3b;
+      text-align: center;
+      font-size: 12px; }
+    .fixedTool .er-download .fixedtool-downText3 {
+      line-height: 17px;
+      color: #bc3b3b;
+      text-align: center;
+      font-size: 12px; }
+  .fixedTool .Sub {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative; }
+    .fixedTool .Sub .Sub-wift {
+      background: url(../img/j1.png) no-repeat 0 -527px;
+      display: inline-block;
+      width: 26px;
+      height: 26px; }
+    .fixedTool .Sub .Sub-text {
+      line-height: 20px;
+      font-size: 14px;
+      margin: 8px auto 0;
+      position: relative;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ccc; }
+    .fixedTool .Sub .Sub-left {
+      display: none;
+      width: 400px;
+      height: 220px;
+      position: absolute;
+      right: 62px;
+      top: -68px;
+      cursor: default;
+      line-height: 20px; }
+      .fixedTool .Sub .Sub-left .left-main {
+        width: 370px;
+        height: 220px;
+        background: #fff;
+        border: 1px solid #eaeaea;
+        box-shadow: 0 2px 4px 0 #7f7f7f;
+        position: relative; }
+        .fixedTool .Sub .Sub-left .left-main .yx-header {
+          background: url("//yanxuan.nosdn.127.net/86fe9b8317068538cda05d96768a6e17.png?imageView&type=webp") no-repeat;
+          height: 70px;
+          text-align: center;
+          line-height: 70px;
+          font-size: 26px;
+          color: #fff;
+          margin-top: -1px;
+          margin-left: -1px; }
+        .fixedTool .Sub .Sub-left .left-main .yxclose {
+          background: url(../img/j1.png) no-repeat 0 0;
+          height: 10px;
+          width: 10px;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          cursor: pointer; }
+        .fixedTool .Sub .Sub-left .left-main .yx-body .yx-desc {
+          font-size: 14px;
+          color: #999;
+          text-align: center;
+          margin-top: 20px; }
+        .fixedTool .Sub .Sub-left .left-main .yx-body .yx-inputWrap {
+          width: 286px;
+          height: 34px;
+          margin: 10px auto 0;
+          position: relative; }
+          .fixedTool .Sub .Sub-left .left-main .yx-body .yx-inputWrap .yx-Input {
+            width: 206px;
+            height: 34px;
+            padding: 5px 10px;
+            font-size: 14px;
+            background: #f8f8f8;
+            border: 1px solid #ddd;
+            border-right: none;
+            float: left;
+            outline: 0; }
+          .fixedTool .Sub .Sub-left .left-main .yx-body .yx-inputWrap .yx-submit {
+            width: 80px;
+            height: 34px;
+            background-color: #b4a078;
+            float: left;
+            font-size: 14px;
+            color: #fff;
+            line-height: 34px;
+            cursor: pointer; }
+        .fixedTool .Sub .Sub-left .left-main .yx-footer {
+          margin-top: 31px;
+          overflow: hidden; }
+          .fixedTool .Sub .Sub-left .left-main .yx-footer .youhui {
+            width: 122px;
+            float: left; }
+            .fixedTool .Sub .Sub-left .left-main .yx-footer .youhui .yx-text {
+              font-size: 14px;
+              color: #b4a078; }
+            .fixedTool .Sub .Sub-left .left-main .yx-footer .youhui .yx-tags {
+              background: url(../img/j1.png) no-repeat 0 -563px;
+              display: inline-block;
+              width: 14px;
+              height: 14px; }
+            .fixedTool .Sub .Sub-left .left-main .yx-footer .youhui .yx-crown {
+              background: url(../img/j1.png) no-repeat 0 -24px;
+              display: inline-block;
+              width: 14px;
+              height: 14px; }
+            .fixedTool .Sub .Sub-left .left-main .yx-footer .youhui .yx-sack {
+              background: url(../img/j1.png) no-repeat 0 -431px;
+              display: inline-block;
+              width: 14px;
+              height: 14px; }
+        .fixedTool .Sub .Sub-left .left-main .jiao {
+          background: url(../img/j1.png) no-repeat 0 -402px;
+          height: 19px;
+          width: 11px;
+          position: absolute;
+          right: -11px;
+          top: 96px; }
+  .fixedTool .Sub:hover .Sub-wift {
+    background: url(../img/j1.png) no-repeat 0 -455px;
+    display: inline-block;
+    width: 26px;
+    height: 26px; }
+  .fixedTool .Sub:hover .Sub-text {
+    color: #b4a078; }
+  .fixedTool .Sub:hover .Sub-left {
+    display: block; }
+  .fixedTool .kefu {
+    display: block;
+    width: 72px;
+    height: 82px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative;
+    border-bottom: 1px solid #ccc; }
+    .fixedTool .kefu .kefu-icon {
+      background: url(../img/j1.png) no-repeat 0 -128px;
+      display: inline-block;
+      width: 32px;
+      height: 31px; }
+    .fixedTool .kefu .kefutext {
+      line-height: 20px;
+      font-size: 14px;
+      margin: 8px auto 0;
+      position: relative; }
+  .fixedTool .kefu:hover .kefu-icon {
+    background: url(../img/j1.png) no-repeat 0 -86px;
+    display: inline-block;
+    width: 32px;
+    height: 31px; }
+  .fixedTool .kefu:hover .kefutext {
+    color: #b4a078; }
+  .fixedTool .gotop {
+    width: 72px;
+    height: 60px;
+    bottom: 0;
+    position: relative;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px; }
+    .fixedTool .gotop .g-top {
+      background: url(../img/j1.png) no-repeat 0 -299px;
+      height: 15px;
+      width: 24px;
+      display: inline-block;
+      overflow: hidden;
+      font-size: 12px;
+      word-spacing: normal;
+      letter-spacing: normal; }
+    .fixedTool .gotop .g-text {
+      line-height: 20px;
+      font-size: 14px;
+      margin: 8px auto 0;
+      position: relative; }
+  .fixedTool .gotop:hover .g-top {
+    background: url(../img/j1.png) no-repeat 0 -274px;
+    display: inline-block;
+    height: 15px;
+    width: 24px; }
+  .fixedTool .gotop:hover .g-text {
+    color: #b4a078; }
+
+.con {
+  height: 1000px; }
