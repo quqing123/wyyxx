@@ -47,6 +47,7 @@ html {
         font-size: 12px;
         cursor: pointer;
         position: relative;
+
         h3 {
           float: left;
           padding-right: 10px;
@@ -55,6 +56,9 @@ html {
           color: #cccccc;
           font-size: 12px;
           text-align: center;
+          a {
+            color: #cccccc;
+          }
           .shouji {
             float: left;
             display: block;
@@ -266,21 +270,20 @@ html {
             font-size: 14px;
           }
           .yinchu-nav {
-            width: 1018px;
+            width: 3000px;
             position: absolute;
             top: 30px;
-            left: 0;
+            left: -50px;
             background-color: #fff;
             display: none;
-            // overflow: hidden;
+            overflow: hidden;
             border: 1px solid #cccccc;
             z-index: 9999;
 
             .list-group {
               padding: 0 10px;
-              max-width: 140px;
+              max-width: 200px;
               float: left;
-              margin: 0 10px;
 
               .nav-list-name {
                 line-height: 48px;
@@ -341,7 +344,7 @@ html {
   background: #fff;
   z-index: 999;
   border-bottom: 1px solid #ccc;
-  // display: none;
+  display: none;
   .headerc {
     // overflow: hidden;
     .logoshouye {
@@ -356,7 +359,7 @@ html {
         margin-top: 14px;
       }
     }
-    .tabNav {
+    .tabNav1 {
       float: left;
       .tabnav-item {
         float: left;
@@ -369,10 +372,10 @@ html {
           font-size: 14px;
         }
         .yinchu-nav {
-          width: 1018px;
+          width: 3000px;
           position: absolute;
           top: 50px;
-          left: 0;
+          left: -80px;
           background-color: #fff;
           display: none;
           // overflow: hidden;
@@ -381,7 +384,7 @@ html {
 
           .list-group {
             padding: 0 10px;
-            max-width: 140px;
+            max-width: 200px;
             float: left;
             margin: 0 10px;
 
@@ -465,7 +468,7 @@ html {
         margin-left: 14px;
       }
     }
-    .user {
+    .user-zhuce {
       position: relative;
       float: left;
       margin-top: 14px;

@@ -1,0 +1,65 @@
+.wrap {
+  width: 1090px;
+  margin: 0 auto; }
+  .wrap .header {
+    margin-top: 30px; }
+    .wrap .header h1 {
+      line-height: 80px;
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      background: #b4a078; }
+  .wrap .main .title {
+    line-height: 40px;
+    overflow: hidden; }
+    .wrap .main .title span {
+      font-size: 14px;
+      color: #333; }
+    .wrap .main .title .a1 {
+      margin-left: 100px; }
+    .wrap .main .title .a2 {
+      margin-left: 450px; }
+    .wrap .main .title .a3 {
+      margin-left: 100px; }
+    .wrap .main .title .a4 {
+      margin-left: 100px; }
+  .wrap .main .list li {
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative; }
+    .wrap .main .list li img {
+      width: 80px;
+      height: 80px;
+      float: left; }
+    .wrap .main .list li h3 {
+      float: left;
+      margin-left: 10px;
+      width: 340px;
+      padding: 10px 0;
+      line-height: 80px; }
+    .wrap .main .list li p {
+      float: left;
+      margin-left: 115px;
+      width: 100px;
+      text-align: center;
+      line-height: 80px; }
+    .wrap .main .list li .btn1 {
+      float: left;
+      position: absolute;
+      right: 374px;
+      top: 30px; }
+    .wrap .main .list li span {
+      float: left;
+      width: 80px;
+      text-align: center;
+      margin-left: 48px;
+      line-height: 80px; }
+    .wrap .main .list li .btn2 {
+      float: left;
+      position: absolute;
+      right: 312px;
+      top: 30px; }
+    .wrap .main .list li em {
+      float: left;
+      margin-left: 73px;
+      line-height: 80px; }

@@ -4,14 +4,13 @@
   overflow: hidden; }
 
 .new1 {
-  width: 1090px;
-  margin-right: auto;
-  margin-left: auto;
   position: relative;
-  height: 510px;
+  margin-bottom: 30px;
   margin-top: 30px; }
   .new1 .new-title {
-    width: 100%;
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
     padding-bottom: 20px;
     height: 48px; }
     .new1 .new-title .n-left {
@@ -38,11 +37,11 @@
         font-size: 12px; }
   .new1 .jian-pre {
     display: block;
-    background-color: #e7e2d7;
+    background: #e7e2d7;
     position: absolute;
     z-index: 9;
     top: 200px;
-    left: -60px;
+    left: 76px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -58,7 +57,7 @@
     position: absolute;
     z-index: 9;
     top: 200px;
-    right: -60px;
+    right: 70px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -67,21 +66,29 @@
     font-size: 40px;
     color: #fff;
     padding-left: 12px; }
-  .new1 .new-xia {
+  .new1 .lunbo {
     width: 1090px;
-    overflow: hidden; }
-    .new1 .new-xia .item-list {
-      width: 2000px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto; }
+    .new1 .lunbo .new-xia {
+      overflow: hidden;
+      width: 20000px;
       margin-right: 10px;
       float: left;
       text-align: center;
       font-size: 13px; }
-      .new1 .new-xia .item-list .pro-shangpin {
+      .new1 .lunbo .new-xia .pro-shangpin:hover .m1 {
+        display: none; }
+      .new1 .lunbo .new-xia .pro-shangpin:hover .m2 {
+        display: block; }
+      .new1 .lunbo .new-xia .pro-shangpin:hover {
+        background-color: #f4f0ea; }
+      .new1 .lunbo .new-xia .pro-shangpin {
         float: left;
         width: 265px;
-        margin-right: 10px;
-        overflow: hidden; }
-        .new1 .new-xia .item-list .pro-shangpin .s-top {
+        margin-right: 10px; }
+        .new1 .lunbo .new-xia .pro-shangpin .s-top {
           width: 265px;
           height: 265px;
           margin-bottom: 8px;
@@ -89,21 +96,14 @@
           position: relative;
           background-color: #f4f4f4;
           cursor: pointer; }
-          .new1 .new-xia .item-list .pro-shangpin .s-top a img {
-            display: block;
-            width: 265px;
-            height: 265px;
-            position: absolute;
-            top: 0;
-            left: 0; }
-          .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie {
+          .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie {
             background: #f38245;
             text-align: left;
             position: absolute;
             bottom: 0;
             left: 0;
             height: 30px; }
-            .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left {
+            .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie .back-left {
               max-width: 200px;
               height: 36px;
               background: #f38245;
@@ -113,25 +113,25 @@
               padding-right: 14px;
               float: left;
               border-top-right-radius: 5px; }
-              .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title {
+              .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie .back-left .b-title {
                 font-size: 12px;
                 height: 15px;
                 line-height: 1;
                 margin-top: 5px; }
-                .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .b-title span {
+                .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie .back-left .b-title span {
                   font-size: 12px;
                   color: #fff;
                   text-align: center; }
-              .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage {
+              .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie .back-left .jiage {
                 font-size: 14px;
                 height: 20px;
                 line-height: 14px;
                 margin-top: -1px;
                 font-weight: 700; }
-                .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-left .jiage span {
+                .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie .back-left .jiage span {
                   color: #fff;
                   font-size: 14px; }
-            .new1 .new-xia .item-list .pro-shangpin .s-top .shang-jie .back-right {
+            .new1 .lunbo .new-xia .pro-shangpin .s-top .shang-jie .back-right {
               float: right;
               width: 162px;
               color: #fff;
@@ -144,53 +144,42 @@
               white-space: nowrap;
               margin-left: 4px;
               padding-left: 4px; }
-        .new1 .new-xia .item-list .pro-shangpin .s-bottom {
-          width: 265px; }
-          .new1 .new-xia .item-list .pro-shangpin .s-bottom .b-tags {
-            height: 20px;
-            color: #fff;
-            margin: 0 auto 3px;
-            overflow: hidden;
-            text-align: center; }
-            .new1 .new-xia .item-list .pro-shangpin .s-bottom .b-tags span {
-              margin-left: 6px;
-              display: inline-block;
-              height: 20px;
-              line-height: 20px;
-              font-size: 12px;
-              padding: 0 5px;
-              background-color: #e36844; }
-          .new1 .new-xia .item-list .pro-shangpin .s-bottom h4 {
-            width: 166px;
-            margin: 0 auto 4px;
-            max-height: 40px;
+        .new1 .lunbo .new-xia .pro-shangpin .s-bottom .b-tags {
+          margin-left: 6px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844;
+          font-size: 12px;
+          text-align: center;
+          margin: 0 96px 3px 96px; }
+          .new1 .lunbo .new-xia .pro-shangpin .s-bottom .b-tags h4 {
+            padding: 0 52px;
+            color: #333333;
             line-height: 20px;
-            overflow: hidden;
-            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
             cursor: pointer; }
-            .new1 .new-xia .item-list .pro-shangpin .s-bottom h4 span {
-              font-weight: bold;
-              font-size: 14px; }
-          .new1 .new-xia .item-list .pro-shangpin .s-bottom h4:hover span {
-            color: #f38245; }
-          .new1 .new-xia .item-list .pro-shangpin .s-bottom p {
-            font-size: 13px;
-            line-height: 13px;
-            color: #d4282d;
-            padding: 1px 9px;
-            position: relative; }
-            .new1 .new-xia .item-list .pro-shangpin .s-bottom p .now-price {
-              margin-left: 76px; }
-            .new1 .new-xia .item-list .pro-shangpin .s-bottom p .yuan-price {
-              margin-left: 6px;
-              color: #ccc;
-              text-decoration: line-through; }
-      .new1 .new-xia .item-list .pro-shangpin:hover .m1 {
-        display: none; }
-      .new1 .new-xia .item-list .pro-shangpin:hover .m2 {
-        display: block; }
-      .new1 .new-xia .item-list .pro-shangpin:hover {
-        background-color: #f4f0ea; }
+        .new1 .lunbo .new-xia .pro-shangpin .s-bottom h4 {
+          width: 166px;
+          margin: 0 auto 4px;
+          max-height: 40px;
+          line-height: 20px;
+          overflow: hidden;
+          text-align: center;
+          cursor: pointer; }
+        .new1 .lunbo .new-xia .pro-shangpin .s-bottom h4:hover {
+          color: #b9a680; }
+        .new1 .lunbo .new-xia .pro-shangpin .s-bottom .now-price {
+          line-height: 13px;
+          height: 13px;
+          font-size: 13px;
+          color: #d4282d; }
+        .new1 .lunbo .new-xia .pro-shangpin .s-bottom .yuan-price {
+          font-size: 12px;
+          color: #999;
+          text-decoration: line-through; }
 
 .popular {
   padding: 60px 0;

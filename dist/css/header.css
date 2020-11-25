@@ -48,6 +48,8 @@ html {
         color: #cccccc;
         font-size: 12px;
         text-align: center; }
+        .top .top1 .header .title h3 a {
+          color: #cccccc; }
         .top .top1 .header .title h3 .shouji {
           float: left;
           display: block;
@@ -227,19 +229,19 @@ html {
           font-weight: bold;
           font-size: 14px; }
         .top .top2 .header1 .tabNav .tabnav-item .yinchu-nav {
-          width: 1018px;
+          width: 3000px;
           position: absolute;
           top: 30px;
-          left: 0;
+          left: -50px;
           background-color: #fff;
           display: none;
+          overflow: hidden;
           border: 1px solid #cccccc;
           z-index: 9999; }
           .top .top2 .header1 .tabNav .tabnav-item .yinchu-nav .list-group {
             padding: 0 10px;
-            max-width: 140px;
-            float: left;
-            margin: 0 10px; }
+            max-width: 200px;
+            float: left; }
             .top .top2 .header1 .tabNav .tabnav-item .yinchu-nav .list-group .nav-list-name {
               line-height: 48px;
               font-weight: bold;
@@ -275,7 +277,8 @@ html {
   line-height: 50px;
   background: #fff;
   z-index: 999;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+  display: none; }
   .headerg .headerc .logoshouye {
     display: block;
     float: left; }
@@ -286,54 +289,54 @@ html {
       width: 126px;
       margin-right: 10px;
       margin-top: 14px; }
-  .headerg .headerc .tabNav {
+  .headerg .headerc .tabNav1 {
     float: left; }
-    .headerg .headerc .tabNav .tabnav-item {
+    .headerg .headerc .tabNav1 .tabnav-item {
       float: left;
       padding: 5px 15px;
       font-size: 14px; }
-      .headerg .headerc .tabNav .tabnav-item .na {
+      .headerg .headerc .tabNav1 .tabnav-item .na {
         color: #333;
         font-weight: bold;
         font-size: 14px; }
-      .headerg .headerc .tabNav .tabnav-item .yinchu-nav {
-        width: 1018px;
+      .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav {
+        width: 3000px;
         position: absolute;
         top: 50px;
-        left: 0;
+        left: -80px;
         background-color: #fff;
         display: none;
         border: 1px solid #cccccc;
         z-index: 999; }
-        .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group {
+        .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group {
           padding: 0 10px;
-          max-width: 140px;
+          max-width: 200px;
           float: left;
           margin: 0 10px; }
-          .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group .nav-list-name {
+          .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group .nav-list-name {
             line-height: 48px;
             font-weight: bold;
             font-size: 16px;
             border-bottom: 1px solid #ddd; }
-          .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group .list-column {
+          .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group .list-column {
             float: left; }
-            .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group .list-column .list-column-item {
+            .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group .list-column .list-column-item {
               display: inline-block;
               margin-bottom: 10px;
               line-height: 36px; }
-              .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group .list-column .list-column-item a .item-img {
+              .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group .list-column .list-column-item a .item-img {
                 display: block;
                 float: left;
                 height: 50px;
                 width: 50px; }
-              .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group .list-column .list-column-item a .item-text {
+              .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group .list-column .list-column-item a .item-text {
                 display: inline-block;
                 color: #5c5c5c;
                 line-height: 60px;
                 padding-left: 3px; }
-              .headerg .headerc .tabNav .tabnav-item .yinchu-nav .list-group .list-column .list-column-item a:hover .item-text {
+              .headerg .headerc .tabNav1 .tabnav-item .yinchu-nav .list-group .list-column .list-column-item a:hover .item-text {
                 color: #cc9756; }
-    .headerg .headerc .tabNav .tabnav-item:hover .yinchu-nav {
+    .headerg .headerc .tabNav1 .tabnav-item:hover .yinchu-nav {
       display: block; }
   .headerg .headerc .search {
     position: relative;
@@ -349,11 +352,11 @@ html {
       color: #fff;
       font-size: 16px;
       margin-left: 14px; }
-  .headerg .headerc .user {
+  .headerg .headerc .user-zhuce {
     position: relative;
     float: left;
     margin-top: 14px; }
-    .headerg .headerc .user a .user-img {
+    .headerg .headerc .user-zhuce a .user-img {
       background: url(../img/j3.png) no-repeat 0 -786px;
       display: block;
       height: 22px;

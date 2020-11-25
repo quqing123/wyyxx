@@ -1,0 +1,87 @@
+.wrap {
+  width: 1090px;
+  margin: 0 auto;
+  .header {
+    margin-top: 30px;
+    h1 {
+      line-height: 80px;
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      background: #b4a078;
+    }
+  }
+  .main {
+    .title {
+      line-height: 40px;
+      // background: #ccc;
+      overflow: hidden;
+      span {
+        font-size: 14px;
+        color: #333;
+      }
+      .a1 {
+        margin-left: 100px;
+      }
+      .a2 {
+        margin-left: 450px;
+      }
+      .a3 {
+        margin-left: 100px;
+      }
+      .a4 {
+        margin-left: 100px;
+      }
+    }
+    .list {
+      li {
+        margin: 10px 0;
+        overflow: hidden;
+        position: relative;
+        img {
+          width: 80px;
+          height: 80px;
+          float: left;
+        }
+        h3 {
+          float: left;
+          margin-left: 10px;
+          width: 340px;
+          padding: 10px 0;
+          line-height: 80px;
+        }
+        p {
+          float: left;
+          margin-left: 115px;
+          width: 100px;
+          text-align: center;
+          line-height: 80px;
+        }
+        .btn1 {
+          float: left;
+          position: absolute;
+          right: 374px;
+          top: 30px;
+        }
+        span {
+          float: left;
+          width: 80px;
+          text-align: center;
+          margin-left: 48px;
+          line-height: 80px;
+        }
+        .btn2 {
+          float: left;
+          position: absolute;
+          right: 312px;
+          top: 30px;
+        }
+        em {
+          float: left;
+          margin-left: 73px;
+          line-height: 80px;
+        }
+      }
+    }
+  }
+}

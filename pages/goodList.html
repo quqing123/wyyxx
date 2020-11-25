@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>商品列表页</title>
-    <link rel="stylesheet" href="../dist/css/footer.css" />
+    <title>商品列表</title>
     <link rel="stylesheet" href="../dist/css/header.css" />
-    <link rel="stylesheet" href="../dist/css/list.css" />
     <link rel="stylesheet" href="../dist/css/reset.css" />
+    <link rel="stylesheet" href="../dist/css/footer.css" />
+    <link rel="stylesheet" href="../dist/css/goodList.css" />
   </head>
   <body>
     <div class="top">
@@ -68,7 +68,7 @@
         <div class="header1 container">
           <div>
             <!-- 左边logo位置 -->
-            <a class="logoa" href="index.html" title="网易严选">
+            <a class="logoa" href="http://localhost:3000" title="网易严选">
               <i class="logo1"></i>
             </a>
             <!-- 中间搜索框 -->
@@ -107,7 +107,7 @@
     <div class="headerg">
       <div class="headerc container">
         <!-- logo位置 -->
-        <a class="logoshouye" href="index.html" title="网易严选">
+        <a class="logoshouye" href="http://localhost:3000" title="网易严选">
           <i class="logo-tubiao"></i>
         </a>
         <ul class="tabNav1">
@@ -135,6 +135,76 @@
         </div>
       </div>
     </div>
+
+    <!-- 左边导航栏固定条 -->
+    <ul class="fix-left">
+      <li class="fix-left-item1">- 热销榜 -</li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/d83d6cc58589e7b9540e57809920d961.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>全站<br />热销榜</span>
+      </li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/288d84fe691240d9f87271b293f39b67.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>居家<br />生活榜</span>
+      </li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/2318b65e996e14bc0707880040dfabb0.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>服饰<br />鞋包榜</span>
+      </li>
+
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/8ca4557361e2fff394a5a94d0b73f3c6.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>美食<br />酒水榜</span>
+      </li>
+
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/270bc2465ac7eed90ada40c92166678b.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>数码<br />家电榜</span>
+      </li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/4723267aef758a7d805bb7c1447fdc44.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>个护<br />清洁榜</span>
+      </li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/eec3af53eb17a4b117043e18ae7c7418.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>运动<br />旅行榜</span>
+      </li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/a94b2f7f7ada813ae9c93f84d3d60d6f.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>母婴<br />亲子榜</span>
+      </li>
+      <li class="fix-left-item">
+        <img
+          src="https://yanxuan.nosdn.127.net/9cb33f543dddd54c7cc157d29650dbf4.png?quality=95&type=webp&imageView"
+          alt=""
+        />
+        <span>全球<br />特色榜</span>
+      </li>
+    </ul>
 
     <!-- 右边固定栏 -->
     <div class="fixedTool">
@@ -203,59 +273,46 @@
         </div>
       </div>
     </div>
-    <!-- 中间内容部分 -->
-    <div class="main-listt">
-      <div class="mainn-row container">
-        <div class="mainn-title container">
-          <i>
-            <span>首页</span>> <span>美食酒水</span>> <span>坚果炒货</span>>
-            <span>2020新果上市，南非碧根果仁 150克</span>
-          </i>
-        </div>
 
-        <div class="main-xia">
-          <div class="list-left">
-            <img
-              src="https://yanxuan-item.nosdn.127.net/d1430013aa80d952f938e16258b23b6e.jpg?type=webp&imageView&thumbnail=430x430&quality=95"
-              alt=""
-            />
-            <div class="mask"></div>
-          </div>
-          <div class="maxBox">
-            <img
-              src="https://yanxuan-item.nosdn.127.net/d1430013aa80d952f938e16258b23b6e.jpg?type=webp&imageView&thumbnail=430x430&quality=95"
-              alt=""
-            />
-          </div>
-          <div class="list-right">
-            <h3>2020新果上市，南非碧根果仁 150克</h3>
-            <div class="desc-gou">南非进口大果仁，酥脆醇香</div>
-            <div class="huodong">
-              <span class="hd-labal">活动价</span>
-              <span class="hd-jiage">￥39.9</span>
+    <!-- 主要内容部分
+     -->
+
+    <div class="list-main">
+      <div class="list-main-row">
+        <div class="dao">
+          <a href="index.html">首页></a>
+          <span class="z-cur">居家生活</span>
+        </div>
+        <!-- 轮播图 -->
+        <div class="banner22 swiper-container">
+          <div class="swiper-button-prev .pre"></div>
+          <div class="swiper-button-next .nex"></div>
+          <div class="swiper-pagination"></div>
+          <div class="wrap11 swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://yanxuan.nosdn.127.net/bb4c4e1347c0e3c84b895aaa637c1dc6.jpg?type=webp&imageView&quality=95&thumbnail=1090x310"
+                alt=""
+              />
             </div>
-            <div class="xianzhi">
-              <span class="xz-labal">限制</span>
-              <span class="xz-jieshi">特价商品不可与优惠券叠加使用</span>
+            <div class="swiper-slide">
+              <img
+                src="https://yanxuan.nosdn.127.net/10a399453c51aedda0a66f703616fe18.jpg?type=webp&imageView&quality=95&thumbnail=1090x310"
+                alt=""
+              />
             </div>
-            <div class="gou-num">
-              <div class="gou-name">数量</div>
-              <div class="field f-left">
-                <button class="btn1">-</button>
-                <span>2</span>
-                <button class="btn2">+</button>
-              </div>
-            </div>
-            <div class="btnss">
-              <a href="goodsCart.html" class="goumai-btn">立即购买</a>
-              <a href="goodsCart.html" class="jiaru-btn">加入购物车</a>
+            <div class="swiper-slide">
+              <img
+                src="https://yanxuan.nosdn.127.net/ac90854d8a831fb98d4849cd9ee89196.jpg?type=webp&imageView&quality=95&thumbnail=1090x310"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 尾部 -->
+    <!-- 底部 -->
     <div class="Footer">
       <div class="footer">
         <div class="footer1">
@@ -400,10 +457,9 @@
     </div>
   </body>
 </html>
-<script src="../jquery-1.8.3/jquery.min.js"></script>
+<script src="../jquery-1.8.3/jquery.js"></script>
 <script src="../js/header.js"></script>
-<script src="../js/list.js"></script>
-<script src="../js/utils.js"></script>
 <script src="../js/header1.js"></script>
 <script src="../js/header2.js"></script>
 <script src="../js/header3.js"></script>
+<script src="../js/goodList.js"></script>

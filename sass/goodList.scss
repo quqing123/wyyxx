@@ -1,0 +1,32 @@
+.list-main {
+  padding-bottom: 80px;
+  background-color: #f5f5f5;
+  .list-main-row {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    .dao {
+      font-size: 12px;
+      color: #333;
+      line-height: 1;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      a {
+        color: #333;
+      }
+    }
+    .banner22 {
+      margin-top: 60px;
+      overflow: hidden;
+      margin-bottom: 50px;
+      .wrap11 {
+        width: 1090px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        overflow: hidden;
+      }
+    }
+  }
+}

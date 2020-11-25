@@ -21,6 +21,179 @@
     }
     .main-xia {
       margin-top: 20px;
+      overflow: hidden;
+      .list-left {
+        float: left;
+        position: relative;
+        img {
+          width: 428px;
+          height: 428px;
+          display: block;
+        }
+        .mask {
+          width: 214px;
+          height: 214px;
+          background-color: orange;
+          opacity: 0.4;
+          position: absolute;
+          left: 0;
+          top: 0;
+          cursor: move;
+          display: none;
+        }
+      }
+      .maxBox {
+        width: 428px;
+        height: 428px;
+        border: 1px solid green;
+        position: absolute;
+        top: 20;
+        left: 428px;
+        overflow: hidden;
+        z-index: 999;
+        display: none;
+        img {
+          width: 1000px;
+          height: 1000px;
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+
+      // 图片描述
+      .list-right {
+        float: left;
+        margin-left: 50px;
+        h3 {
+          height: 50px;
+          font-weight: bold;
+          color: #333;
+          font-size: 20px;
+        }
+        .desc-gou {
+          width: 520px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #999;
+        }
+        .huodong {
+          height: 45px;
+          margin-top: 30px;
+          .hd-labal {
+            width: 55px;
+            font-size: 13px;
+            color: #666;
+            margin-left: 10px;
+            line-height: 30px;
+            margin-top: 16px;
+            display: inline-block;
+          }
+          .hd-jiage {
+            margin-left: 0;
+            line-height: 30px;
+            color: #d7282d;
+            font-size: 18px;
+            font-weight: 700;
+          }
+        }
+        .xianzhi {
+          height: 45px;
+          margin-top: 30px;
+          .xz-labal {
+            width: 55px;
+            font-size: 13px;
+            float: left;
+            color: #666;
+            margin-left: 10px;
+          }
+          .xz-jieshi {
+            color: #666;
+          }
+        }
+        //数量
+        .gou-num {
+          margin-top: 10px;
+          margin-left: 10px;
+          .gou-name {
+            float: left;
+            font-size: 12px;
+            color: #666;
+            width: 54px;
+            white-space: normal;
+            line-height: 24px;
+          }
+          //数量加减
+          .field {
+            height: 30px;
+            margin-bottom: 30px;
+            .btn1 {
+              position: relative;
+              float: left;
+              width: 36px;
+              height: 30px;
+              line-height: 28px;
+              background: #fff;
+              border: 1px solid #ddd;
+            }
+            span {
+              box-sizing: border-box;
+              border-radius: 0;
+              border: 0;
+              width: 60px;
+              margin: 0;
+              font-size: 12px;
+              text-align: center;
+              line-height: 28px;
+              color: #333;
+              display: inline-block;
+              float: left;
+              border-top: 1px solid #ddd;
+              border-bottom: 1px solid #ddd;
+            }
+            .btn2 {
+              position: relative;
+              float: left;
+              width: 36px;
+              height: 30px;
+              line-height: 28px;
+              background: #fff;
+              border: 1px solid #ddd;
+            }
+          }
+        }
+        //按钮部分
+        .btnss {
+          margin-left: 12px;
+          margin-top: 30px;
+          .goumai-btn {
+            display: block;
+            text-align: center;
+            width: 168px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+            margin-right: 30px;
+            color: #b4a078;
+            border: 1px solid #b4a078;
+            float: left;
+            background: #f5f3ef;
+          }
+          .jiaru-btn {
+            display: block;
+            text-align: center;
+            float: left;
+            width: 168px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+            color: #fff;
+            border: 1px solid #b4a078;
+            background-color: #b4a078;
+          }
+        }
+      }
     }
   }
 }

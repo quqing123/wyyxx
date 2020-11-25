@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>商品列表页</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../dist/css/footer.css" />
     <link rel="stylesheet" href="../dist/css/header.css" />
-    <link rel="stylesheet" href="../dist/css/list.css" />
     <link rel="stylesheet" href="../dist/css/reset.css" />
+    <link rel="stylesheet" href="../dist/css/goodsCart.css" />
   </head>
   <body>
     <div class="top">
@@ -136,122 +136,28 @@
       </div>
     </div>
 
-    <!-- 右边固定栏 -->
-    <div class="fixedTool">
-      <div class="f-t-base">
-        <!-- 二维码部分 -->
-        <a
-          href="https://you.163.com/downloadapp?_stat_from=1605927143608%22&ochannel=aos_pd_8"
-          class="er-download"
-        >
-          <div class="err">
-            <span></span>
-          </div>
-          <p class="fixedtool-downText1">扫码领</p>
-          <p class="fixedtool-downText2">APP大额</p>
-          <p class="fixedtool-downText2">新人红包</p>
-        </a>
-        <!-- 订阅电子书部分 -->
-
-        <div class="Sub">
-          <i class="Sub-wift"></i>
-          <p class="Sub-text">订阅电子刊</p>
-
-          <div class="Sub-left">
-            <div class="left-main">
-              <div class="yx-header">严选生活美学</div>
-              <div class="yxclose" title="关闭"></div>
-              <div class="yx-body">
-                <div class="yx-desc">订阅电子刊，第一时间获取严选最新资讯</div>
-                <div class="yx-inputWrap">
-                  <input
-                    type="text"
-                    class="yx-Input"
-                    placeholder="输入您的电子邮件"
-                  />
-                  <i class="icon"></i>
-                  <div class="yx-submit">立即订阅</div>
-                </div>
-              </div>
-              <div class="yx-footer">
-                <div class="youhui">
-                  <i class="yx-tags"></i> <span class="yx-text">专属优惠</span>
-                </div>
-                <div class="youhui">
-                  <i class="yx-crown"></i>
-                  <span class="yx-text">尊享优先购</span>
-                </div>
-                <div class="youhui">
-                  <i class="yx-sack"></i>
-                  <span class="yx-text">好货不错过</span>
-                </div>
-              </div>
-              <div class="jiao"></div>
-            </div>
-          </div>
-        </div>
-        <!-- 在线客服部分 -->
-        <div class="kefu">
-          <i class="kefu-icon"></i>
-          <p class="kefutext">在线客服</p>
-        </div>
-
-        <!-- 回顶部 -->
-        <div class="gotop">
-          <i class="g-top"></i>
-          <p class="g-text">回顶部</p>
-        </div>
+    <div class="wrap">
+      <div class="header">
+        <h1>我的购物车</h1>
       </div>
-    </div>
-    <!-- 中间内容部分 -->
-    <div class="main-listt">
-      <div class="mainn-row container">
-        <div class="mainn-title container">
-          <i>
-            <span>首页</span>> <span>美食酒水</span>> <span>坚果炒货</span>>
-            <span>2020新果上市，南非碧根果仁 150克</span>
-          </i>
+      <div class="main">
+        <div class="title">
+          <span class="a1">商品</span>
+          <span class="a2">单价</span>
+          <span class="a3">数量</span>
+          <span class="a4">操作</span>
         </div>
-
-        <div class="main-xia">
-          <div class="list-left">
-            <img
-              src="https://yanxuan-item.nosdn.127.net/d1430013aa80d952f938e16258b23b6e.jpg?type=webp&imageView&thumbnail=430x430&quality=95"
-              alt=""
-            />
-            <div class="mask"></div>
-          </div>
-          <div class="maxBox">
-            <img
-              src="https://yanxuan-item.nosdn.127.net/d1430013aa80d952f938e16258b23b6e.jpg?type=webp&imageView&thumbnail=430x430&quality=95"
-              alt=""
-            />
-          </div>
-          <div class="list-right">
-            <h3>2020新果上市，南非碧根果仁 150克</h3>
-            <div class="desc-gou">南非进口大果仁，酥脆醇香</div>
-            <div class="huodong">
-              <span class="hd-labal">活动价</span>
-              <span class="hd-jiage">￥39.9</span>
-            </div>
-            <div class="xianzhi">
-              <span class="xz-labal">限制</span>
-              <span class="xz-jieshi">特价商品不可与优惠券叠加使用</span>
-            </div>
-            <div class="gou-num">
-              <div class="gou-name">数量</div>
-              <div class="field f-left">
-                <button class="btn1">-</button>
-                <span>2</span>
-                <button class="btn2">+</button>
-              </div>
-            </div>
-            <div class="btnss">
-              <a href="goodsCart.html" class="goumai-btn">立即购买</a>
-              <a href="goodsCart.html" class="jiaru-btn">加入购物车</a>
-            </div>
-          </div>
-        </div>
+        <ul class="list">
+          <!-- <li>
+                      <img src="./img/goods1.png" alt="">
+                      <h3>青春靓丽洋气时尚大方帅气的小白鞋，情侣同款</h3>
+                      <p>￥188</p>
+                      <button class="btn1">-</button>
+                      <span>2</span>
+                      <button class="btn2">+</button>
+                      <em>删除</em>
+                  </li> -->
+        </ul>
       </div>
     </div>
 
@@ -400,10 +306,9 @@
     </div>
   </body>
 </html>
-<script src="../jquery-1.8.3/jquery.min.js"></script>
-<script src="../js/header.js"></script>
-<script src="../js/list.js"></script>
+<script src="../jquery-1.8.3/jquery.js"></script>
 <script src="../js/utils.js"></script>
-<script src="../js/header1.js"></script>
-<script src="../js/header2.js"></script>
+<script src="../js/header.js"></script>
 <script src="../js/header3.js"></script>
+<script src="../js/header2.js"></script>
+<script src="../js/header1.js"></script>

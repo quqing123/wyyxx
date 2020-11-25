@@ -22,7 +22,7 @@
           </div>
           <div class="nav">
             <div class="title">
-              <h3>登陆/注册</h3>
+              <a href="login.html"> <h3>登陆/注册</h3> </a> <span></span>
               <span></span>
             </div>
             <div class="title">
@@ -1062,8 +1062,8 @@
         </div>
 
         <!-- 用户注册 -->
-        <div class="user">
-          <a href="#" title="用户注册">
+        <div class="user-zhuce">
+          <a href="login.html" title="用户注册">
             <i class="user-img"></i>
           </a>
         </div>
@@ -1327,58 +1327,58 @@
 <script src="../js/login.js"></script>
 <script src="../js/utils.js"></script>
 <script>
-  var login = document.querySelector(".login");
-  var add = document.querySelector(".add");
-  var user = document.querySelector(".user");
+  // var login = document.querySelector(".login");
+  // var add = document.querySelector(".add");
+  // var user = document.querySelector(".user");
 
-  var pass = document.querySelector(".pass");
+  // var pass = document.querySelector(".pass");
 
-  login.onclick = function () {
-    var passVal = pass.value;
-    var userVal = user.value;
-    //验证
-    if (!passVal || !userVal) {
-      alert("账号密码不能为空");
-      return;
-    }
-    ajax({
-      url: "../data/login.php",
-      type: "post",
-      data: {
-        user: userVal,
-        pass: passVal,
-        type: "login",
-      },
-      success: function (json) {
-        console.log(json.msg);
-      },
-      error: function (code) {
-        console.log(code);
-      },
-    });
-  };
-  add.onclick = function () {
-    var passVal = pass.value;
-    var userVal = user.value;
-    //验证
-    if (!passVal || !userVal) {
-      alert("账号密码不能为空");
-      return;
-    }
-    ajax({
-      url: "../data/login.php",
-      type: "post",
-      data: {
-        user: userVal,
-        pass: passVal,
-        type: "add",
-      },
-      success: function (json) {
-        console.log(json.msg);
-      },
-      error: function (code) {
-        console.log(code);
-      },
-    });
-  };
+  // login.onclick = function () {
+  //   var passVal = pass.value;
+  //   var userVal = user.value;
+  //   //验证
+  //   if (!passVal || !userVal) {
+  //     alert("账号密码不能为空");
+  //     return;
+  //   }
+  //   ajax({
+  //     url: "../data/login.php",
+  //     type: "post",
+  //     data: {
+  //       user: userVal,
+  //       pass: passVal,
+  //       type: "login",
+  //     },
+  //     success: function (json) {
+  //       console.log(json.msg);
+  //     },
+  //     error: function (code) {
+  //       console.log(code);
+  //     },
+  //   });
+  // };
+  // add.onclick = function () {
+  //   var passVal = pass.value;
+  //   var userVal = user.value;
+  //   验证
+  //   if (!passVal || !userVal) {
+  //     alert("账号密码不能为空");
+  //     return;
+  //   }
+  //   ajax({
+  //     url: "../data/login.php",
+  //     type: "post",
+  //     data: {
+  //       user: userVal,
+  //       pass: passVal,
+  //       type: "add",
+  //     },
+  //     success: function (json) {
+  //       console.log(json.msg);
+  //     },
+  //     error: function (code) {
+  //       console.log(code);
+  //     },
+  //   });
+  // };
 </script>
