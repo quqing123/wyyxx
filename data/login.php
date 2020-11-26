@@ -13,6 +13,9 @@ type: post
 {"err":0,"msg":"登录成功"}
 
 */
+
+//允许任何来源
+header("Access-Control-Allow-Origin:*"); 
 //设置响应头部信息
 header('Content-Type:text/html;charset=utf-8');
 $user = $_POST['user'];

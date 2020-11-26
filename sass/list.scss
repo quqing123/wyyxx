@@ -22,27 +22,60 @@
     .main-xia {
       margin-top: 20px;
       overflow: hidden;
-      .list-left {
+      .main-left {
         float: left;
-        position: relative;
-        img {
+        .list-left {
+          position: relative;
           width: 428px;
           height: 428px;
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+          .mask {
+            width: 214px;
+            height: 214px;
+            background-color: orange;
+            opacity: 0.4;
+            position: absolute;
+            left: 0;
+            top: 0;
+            cursor: move;
+            display: none;
+          }
+        } //下面的切换图的部分
+        .all-Img {
           display: block;
-        }
-        .mask {
-          width: 214px;
-          height: 214px;
-          background-color: orange;
-          opacity: 0.4;
-          position: absolute;
-          left: 0;
-          top: 0;
-          cursor: move;
-          display: none;
+          margin-top: 10px;
+          overflow: hidden;
+          margin-bottom: 10px;
+          .xiao-Img {
+            margin: 0 4px;
+            zoom: 1;
+            width: 78px;
+            height: 78px;
+            float: left;
+            a {
+              display: block;
+              width: 78px;
+              height: 78px;
+              border: 1px solid #e8e8e8;
+              img {
+                display: block;
+                // width: 100%;
+                // height: 100%;
+                background: #f4f4f4;
+              }
+            }
+            a:hover {
+              border: 1px solid #d7282d;
+            }
+          }
         }
       }
       .maxBox {
+        margin-left: 20px;
         width: 428px;
         height: 428px;
         border: 1px solid green;

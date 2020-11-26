@@ -18,24 +18,49 @@
     .main-listt .mainn-row .main-xia {
       margin-top: 20px;
       overflow: hidden; }
-      .main-listt .mainn-row .main-xia .list-left {
-        float: left;
-        position: relative; }
-        .main-listt .mainn-row .main-xia .list-left img {
+      .main-listt .mainn-row .main-xia .main-left {
+        float: left; }
+        .main-listt .mainn-row .main-xia .main-left .list-left {
+          position: relative;
           width: 428px;
-          height: 428px;
-          display: block; }
-        .main-listt .mainn-row .main-xia .list-left .mask {
-          width: 214px;
-          height: 214px;
-          background-color: orange;
-          opacity: 0.4;
-          position: absolute;
-          left: 0;
-          top: 0;
-          cursor: move;
-          display: none; }
+          height: 428px; }
+          .main-listt .mainn-row .main-xia .main-left .list-left img {
+            display: block;
+            width: 100%;
+            height: 100%; }
+          .main-listt .mainn-row .main-xia .main-left .list-left .mask {
+            width: 214px;
+            height: 214px;
+            background-color: orange;
+            opacity: 0.4;
+            position: absolute;
+            left: 0;
+            top: 0;
+            cursor: move;
+            display: none; }
+        .main-listt .mainn-row .main-xia .main-left .all-Img {
+          display: block;
+          margin-top: 10px;
+          overflow: hidden;
+          margin-bottom: 10px; }
+          .main-listt .mainn-row .main-xia .main-left .all-Img .xiao-Img {
+            margin: 0 4px;
+            zoom: 1;
+            width: 78px;
+            height: 78px;
+            float: left; }
+            .main-listt .mainn-row .main-xia .main-left .all-Img .xiao-Img a {
+              display: block;
+              width: 78px;
+              height: 78px;
+              border: 1px solid #e8e8e8; }
+              .main-listt .mainn-row .main-xia .main-left .all-Img .xiao-Img a img {
+                display: block;
+                background: #f4f4f4; }
+            .main-listt .mainn-row .main-xia .main-left .all-Img .xiao-Img a:hover {
+              border: 1px solid #d7282d; }
       .main-listt .mainn-row .main-xia .maxBox {
+        margin-left: 20px;
         width: 428px;
         height: 428px;
         border: 1px solid green;

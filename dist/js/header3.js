@@ -11,7 +11,7 @@ $(function () {
       var goodsStr = [];
 
       for (var i = 0; i < json.data.cateList.length; i++) {
-        console.log(json.data.cateList);
+        // console.log(json.data.cateList);
         var goodsStr4 = "";
         $.each(json.data.cateList[i].subCateGroupList, function (index, item) {
           var goodsStr5 = "";

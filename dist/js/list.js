@@ -1,15 +1,35 @@
 "use strict";
 
-var minBox = document.querySelector(".main-left");
+//大图切小图
+$(function () {
+  $(".all-Img li a img").click(function () {
+    //获取当前点击标签的src属性
+    var srcVal = $(this).attr("src"); // console.log(srcVal);
+
+    $(".list-left .maxImg").attr("src", srcVal);
+    $(".maxBox img").attr("src", srcVal);
+    return false;
+  });
+  $(".all-Img li a img").mouseover(function () {
+    //获取当前点击标签的src属性
+    var srcVal = $(this).attr("src"); // console.log(srcVal);
+
+    $(".list-left .maxImg").attr("src", srcVal);
+    $(".maxBox img").attr("src", srcVal);
+    return false;
+  });
+});
+var minBox = document.querySelector(".list-left");
 var mask = document.querySelector(".mask");
 var maxBox = document.querySelector(".maxBox");
-var maxImg = document.querySelector(".maxBox img"); // 鼠标移动，mask跟随移动
+var maxImg = document.querySelector(".maxBox img"); //放大镜------------------------------------------------------------------------------------
+// 鼠标移动，mask跟随移动
 
-minBox.onmousemove = function (e) {
-  //   var e = ev || event;
-  // 计算msk的定位坐标
-  var maskLeft = e.clientX - offset(minBox).left - mask.clientWidth / 2;
-  var maskTop = e.clientY - offset(minBox).top - mask.clientHeight / 2; // 限制mask移动范围
+minBox.onmousemove = function (ev) {
+  var e = ev || Event; // 计算msk的定位坐标
+
+  var maskLeft = e.pageX - offset(minBox).left - mask.clientWidth / 2;
+  var maskTop = e.pageY - offset(minBox).top - mask.clientHeight / 2; // 限制mask移动范围
 
   if (maskLeft < 0) {
     maskLeft = 0;

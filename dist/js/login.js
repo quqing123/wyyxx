@@ -49,8 +49,8 @@ $(function () {
     }
 
     $.post("../data/login.php", {
-      name: num,
-      pwd: psd
+      user: num,
+      pass: psd
     }, function (res) {
       var arr = JSON.parse(res);
       console.log(arr);
@@ -67,7 +67,7 @@ $(function () {
           user: num
         });
         localStorage.setItem("user", JSON.stringify(userArr));
-        location.href = "index.html";
+        location.href = "login.html";
       }
     });
   });
