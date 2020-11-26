@@ -11,13 +11,13 @@
       color: #333;
       line-height: 1;
       padding-top: 20px;
-      padding-bottom: 20px;
       a {
         color: #333;
       }
     }
+
+    // 轮播图
     .banner22 {
-      margin-top: 60px;
       overflow: hidden;
       margin-bottom: 50px;
       .wrap11 {
@@ -25,7 +25,169 @@
         margin-right: auto;
         margin-left: auto;
         position: relative;
+        .swiper-slide {
+          width: 1090px;
+          height: 310px;
+          img {
+            display: block;
+          }
+        }
+      }
+    }
+
+    // 地址
+    .di-zhi {
+      width: 1090px;
+      padding: 0 40px;
+      background: #fff;
+      .di-row {
+        padding-top: 20px;
+        .d-t {
+          line-height: 1;
+          overflow: hidden;
+          .cater {
+            font-size: 14px;
+            color: #999;
+            float: left;
+            margin-right: 28px;
+            display: block;
+          }
+          .fen-xiang {
+            float: left;
+            width: 930px;
+            margin-bottom: 4px;
+            a {
+              float: left;
+              margin-right: 30px;
+              margin-bottom: 16px;
+              font-size: 14px;
+              color: #333;
+            }
+            a:hover {
+              color: #b4a078;
+            }
+          }
+        }
+        .d-area {
+          border-top: 1px dashed #dedede;
+          border-bottom: 1px dashed #dedede;
+          padding-top: 20px;
+          overflow: hidden;
+          .a-name {
+            font-size: 14px;
+            color: #999;
+            display: block;
+            float: left;
+          }
+          .name-group {
+            width: 930px;
+            margin-bottom: 4px;
+            float: left;
+            overflow: hidden;
+            a {
+              float: left;
+              margin-right: 30px;
+              margin-bottom: 16px;
+              font-size: 14px;
+              color: #333;
+            }
+            a:hover {
+              color: #b4a078;
+            }
+          }
+        }
+        .d-sort {
+          overflow: hidden;
+          margin-top: 10px;
+          .sort-name {
+            float: left;
+            display: block;
+            margin-right: 30px;
+            color: #999999;
+          }
+          a {
+            display: block;
+            float: left;
+            margin-right: 30px;
+            font-size: 14px;
+            color: #333;
+          }
+          a:hover {
+            color: #b4a078;
+          }
+        }
+      }
+    }
+    // 标题
+    .con-list {
+      width: 1090px;
+      padding: 0 40px;
+      background: #fff;
+      .koubei {
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+      }
+      p {
+        font-size: 14px;
+        color: #999;
+        line-height: 24px;
+        text-align: center;
+      }
+      .lie-goods {
+        margin-top: 25px;
         overflow: hidden;
+
+        .dan {
+          margin: 5px 3px;
+          width: 245px;
+          height: 401px;
+          background: #fff;
+          float: left;
+          .dan-top {
+            position: relative;
+
+            height: 245px;
+            .m11 {
+              width: 245px;
+              height: 245px;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            .m22 {
+              display: none;
+              width: 245px;
+              height: 245px;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+          }
+          .dan-bottom {
+            .dan-p {
+              color: #333;
+              font-size: 14;
+              font-weight: bold;
+              text-align: center;
+              margin-top: 30px;
+            }
+            .dan-jia {
+              color: red;
+            }
+          }
+        }
+        .dan:hover .dan-top .m11 {
+          display: none;
+        }
+        .dan:hover .dan-top .m22 {
+          display: block;
+        }
+        .dan:hover {
+          background-color: rgb(244, 240, 234);
+        }
       }
     }
   }

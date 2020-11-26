@@ -3,7 +3,7 @@
 $(function () {
   //登录
   $(".login").click(function () {
-    var num = $(".login-box .user").val();
+    var num = $(".user").val();
     var psd = $(".pass").val();
     console.log($(".user"));
     console.log(psd);

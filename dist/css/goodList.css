@@ -10,17 +10,139 @@
       font-size: 12px;
       color: #333;
       line-height: 1;
-      padding-top: 20px;
-      padding-bottom: 20px; }
+      padding-top: 20px; }
       .list-main .list-main-row .dao a {
         color: #333; }
     .list-main .list-main-row .banner22 {
-      margin-top: 60px;
       overflow: hidden;
       margin-bottom: 50px; }
       .list-main .list-main-row .banner22 .wrap11 {
         width: 1090px;
         margin-right: auto;
         margin-left: auto;
-        position: relative;
+        position: relative; }
+        .list-main .list-main-row .banner22 .wrap11 .swiper-slide {
+          width: 1090px;
+          height: 310px; }
+          .list-main .list-main-row .banner22 .wrap11 .swiper-slide img {
+            display: block; }
+    .list-main .list-main-row .di-zhi {
+      width: 1090px;
+      padding: 0 40px;
+      background: #fff; }
+      .list-main .list-main-row .di-zhi .di-row {
+        padding-top: 20px; }
+        .list-main .list-main-row .di-zhi .di-row .d-t {
+          line-height: 1;
+          overflow: hidden; }
+          .list-main .list-main-row .di-zhi .di-row .d-t .cater {
+            font-size: 14px;
+            color: #999;
+            float: left;
+            margin-right: 28px;
+            display: block; }
+          .list-main .list-main-row .di-zhi .di-row .d-t .fen-xiang {
+            float: left;
+            width: 930px;
+            margin-bottom: 4px; }
+            .list-main .list-main-row .di-zhi .di-row .d-t .fen-xiang a {
+              float: left;
+              margin-right: 30px;
+              margin-bottom: 16px;
+              font-size: 14px;
+              color: #333; }
+            .list-main .list-main-row .di-zhi .di-row .d-t .fen-xiang a:hover {
+              color: #b4a078; }
+        .list-main .list-main-row .di-zhi .di-row .d-area {
+          border-top: 1px dashed #dedede;
+          border-bottom: 1px dashed #dedede;
+          padding-top: 20px;
+          overflow: hidden; }
+          .list-main .list-main-row .di-zhi .di-row .d-area .a-name {
+            font-size: 14px;
+            color: #999;
+            display: block;
+            float: left; }
+          .list-main .list-main-row .di-zhi .di-row .d-area .name-group {
+            width: 930px;
+            margin-bottom: 4px;
+            float: left;
+            overflow: hidden; }
+            .list-main .list-main-row .di-zhi .di-row .d-area .name-group a {
+              float: left;
+              margin-right: 30px;
+              margin-bottom: 16px;
+              font-size: 14px;
+              color: #333; }
+            .list-main .list-main-row .di-zhi .di-row .d-area .name-group a:hover {
+              color: #b4a078; }
+        .list-main .list-main-row .di-zhi .di-row .d-sort {
+          overflow: hidden;
+          margin-top: 10px; }
+          .list-main .list-main-row .di-zhi .di-row .d-sort .sort-name {
+            float: left;
+            display: block;
+            margin-right: 30px;
+            color: #999999; }
+          .list-main .list-main-row .di-zhi .di-row .d-sort a {
+            display: block;
+            float: left;
+            margin-right: 30px;
+            font-size: 14px;
+            color: #333; }
+          .list-main .list-main-row .di-zhi .di-row .d-sort a:hover {
+            color: #b4a078; }
+    .list-main .list-main-row .con-list {
+      width: 1090px;
+      padding: 0 40px;
+      background: #fff; }
+      .list-main .list-main-row .con-list .koubei {
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700; }
+      .list-main .list-main-row .con-list p {
+        font-size: 14px;
+        color: #999;
+        line-height: 24px;
+        text-align: center; }
+      .list-main .list-main-row .con-list .lie-goods {
+        margin-top: 25px;
         overflow: hidden; }
+        .list-main .list-main-row .con-list .lie-goods .dan {
+          margin: 5px 3px;
+          width: 245px;
+          height: 401px;
+          background: #fff;
+          float: left; }
+          .list-main .list-main-row .con-list .lie-goods .dan .dan-top {
+            position: relative;
+            height: 245px; }
+            .list-main .list-main-row .con-list .lie-goods .dan .dan-top .m11 {
+              width: 245px;
+              height: 245px;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0; }
+            .list-main .list-main-row .con-list .lie-goods .dan .dan-top .m22 {
+              display: none;
+              width: 245px;
+              height: 245px;
+              position: absolute;
+              top: 0;
+              left: 0; }
+          .list-main .list-main-row .con-list .lie-goods .dan .dan-bottom .dan-p {
+            color: #333;
+            font-size: 14;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px; }
+          .list-main .list-main-row .con-list .lie-goods .dan .dan-bottom .dan-jia {
+            color: red; }
+        .list-main .list-main-row .con-list .lie-goods .dan:hover .dan-top .m11 {
+          display: none; }
+        .list-main .list-main-row .con-list .lie-goods .dan:hover .dan-top .m22 {
+          display: block; }
+        .list-main .list-main-row .con-list .lie-goods .dan:hover {
+          background-color: #f4f0ea; }
