@@ -6,23 +6,33 @@ $(function () {
     //有数据
     //获取本地储存中的购物车数据
     var goodsArr = JSON.parse(localStorage.getItem("goods")); //获取数据
-
-    $.ajax({
-      url: "../data/list.json",
-      type: "get",
-      datatype: "json",
-      success: function success(json) {
-        var domStr = " ";
-        $.each(goodsArr, function (index, item) {
-          $.each(json, function (ind, obj) {
-            if (item.code === obj.code) {
-              domStr += "\n                      <li>\n                      <img src=\"".concat(obj.imgurl1, "\">\n                      <h3>").concat(obj.desc, "</h3>\n                      <p>").concat(obj.price, "</p>\n                      <button class=\"btn1\">-</button>\n                      <span>").concat(item.num, "</span>\n                      <button class=\"btn2\">+</button>\n                      <em code=\"").concat(obj.code, "\">\u5220\u9664</em>\n                      </li>\n                      ");
-            }
-          });
-        });
-        $(".list").html(domStr);
-      }
-    }); //加减商品数量
+    // $.ajax({
+    //   url: "../data/list.json",
+    //   type: "get",
+    //   datatype: "json",
+    //   success: function (json) {
+    //     var domStr = " ";
+    //     $.each(goodsArr, function (index, item) {
+    //       $.each(json, function (ind, obj) {
+    //         if (item.code === obj.code) {
+    //           domStr += `
+    //                   <li>
+    //                   <img src="${obj.imgurl1}">
+    //                   <h3>${obj.desc}</h3>
+    //                   <p>${obj.price}</p>
+    //                   <button class="btn1">-</button>
+    //                   <span>${item.num}</span>
+    //                   <button class="btn2">+</button>
+    //                   <em code="${obj.code}">删除</em>
+    //                   </li>
+    //                   `;
+    //         }
+    //       });
+    //     });
+    //     $(".list").html(domStr);
+    //   },
+    // });
+    //加减商品数量
     //加
 
     $(".list").on("click", ".btn2", function () {

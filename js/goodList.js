@@ -61,9 +61,9 @@ $(function () {
 
   //点击加入详情页
   $(".lie-goods").on("click", " .dan", function () {
-    console.log(123);
+    // console.log(123);
     var code = $(this).attr("code");
-    console.log(code);
+    // console.log(code);
 
     var imgurl1 = $(this).attr("imgurl1");
     var img1 = $(this).attr("img1");
@@ -75,6 +75,7 @@ $(function () {
     var price = $(this).attr("price");
     var desc = $(this).attr("desc");
 
+    console.log(imgurl1);
     var goodStr = {
       code: code,
       imgurl1: imgurl1,
@@ -87,7 +88,8 @@ $(function () {
       price: price,
       desc: desc,
     };
-    window.location.href = "list.html";
+    // window.location.href = "list.html";
+    //更新本地存储的数据
     localStorage.setItem("goods", JSON.stringify(goodStr));
   });
 });

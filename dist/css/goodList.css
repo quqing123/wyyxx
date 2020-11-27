@@ -95,7 +95,8 @@
     .list-main .list-main-row .con-list {
       width: 1090px;
       padding: 0 40px;
-      background: #fff; }
+      background: #fff;
+      cursor: pointer; }
       .list-main .list-main-row .con-list .koubei {
         height: 50px;
         font-size: 30px;
@@ -138,6 +139,8 @@
             font-weight: bold;
             text-align: center;
             margin-top: 30px; }
+          .list-main .list-main-row .con-list .lie-goods .dan .dan-bottom .dan-p:hover {
+            color: #b4a078; }
           .list-main .list-main-row .con-list .lie-goods .dan .dan-bottom .dan-jia {
             color: red; }
         .list-main .list-main-row .con-list .lie-goods .dan:hover .dan-top .m11 {

@@ -1,48 +1,33 @@
 "use strict";
 
-$(function () {
-  var a = $(".user");
-  var b = $(".pass");
-  var c = $(".rember");
-  var btn = $(".login");
-  var users = localStorage.getItem("username"); //检索user
+var login = document.querySelector(".login");
+var user = document.querySelector(".user");
+var pass = document.querySelector(".pass");
+var auto = document.querySelector(".auto"); //判断之前是否有存用户登录账号
 
-  var pass = localStorage.getItem("password"); //检索pass
+if (getCookie("username")) {
+  user.value = getCookie("username");
+  pass.value = getCookie("password");
+  auto.value = true;
+} //用户登录
 
-  if (users && pass) {
-    //console.log(user)
-    //console.log(pass)
-    a.val(users);
-    b.val(passs);
-    console.log("二次登陆");
+
+login.onclick = function () {
+  if (auto.checked) {
+    setCookie({
+      key: "username",
+      val: user.value,
+      days: 15
+    });
+    setCookie({
+      key: "password",
+      val: pass.value,
+      days: 15
+    });
   } else {
-    console.log("头次登陆");
-  } //点击事件
+    removeCookie("username");
+    removeCookie("password");
+  }
 
-
-  btn.onclick(function () {
-    var ss = c.prop("checked"); //判断复选框是否被选中
-
-    var users = a.val(); //用户的值
-
-    var passs = b.val(); //密码的值
-
-    if (a.val() == "admin" && b.val() == 123) {
-      console.log("login btn unreme");
-
-      if (aaa) {
-        var user = localStorage.setItem("username", users); //新增users
-
-        var pass = localStorage.setItem("password", passs); //新增pass
-
-        alert("已点击复选框");
-      } else {
-        var user = localStorage.setItem("user", user);
-        var pass = localStorage.setItem("pass", pass);
-        alert("无点击复选框");
-      }
-    } else {
-      alert("登陆失败！");
-    }
-  });
-});
+  location.href = "index.html";
+};

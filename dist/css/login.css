@@ -31,6 +31,11 @@
           width: 200px;
           height: 40px;
           border: 1px solid #b27b57; }
+      .main11 .main11-row .login-box .jizhu {
+        height: 20px;
+        line-height: 20px;
+        margin-left: 80px;
+        margin-bottom: 20px; }
       .main11 .main11-row .login-box .login {
         float: left;
         display: block;
@@ -40,7 +45,7 @@
         border: none;
         color: #fff;
         font-size: 24px;
-        margin-left: 80px; }
+        margin-left: 60px; }
       .main11 .main11-row .login-box .add {
         display: block;
         float: left;
@@ -50,4 +55,4 @@
         border: none;
         color: #fff;
         font-size: 24px;
-        margin-left: 30px; }
+        margin-left: 60px; }
