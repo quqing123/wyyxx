@@ -28,6 +28,7 @@
           position: relative;
           width: 428px;
           height: 428px;
+          border: 1px solid #ddd;
           img {
             display: block;
             width: 100%;
@@ -214,6 +215,7 @@
             background: #f5f3ef;
           }
           .jiaru-btn {
+            cursor: pointer;
             display: block;
             text-align: center;
             float: left;

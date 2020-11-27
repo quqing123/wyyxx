@@ -64,32 +64,16 @@ $(function () {
     // console.log(123);
     var code = $(this).attr("code");
     // console.log(code);
+    window.location.href = "list.html";
 
-    var imgurl1 = $(this).attr("imgurl1");
-    var img1 = $(this).attr("img1");
-    var img2 = $(this).attr("img2");
-    var img3 = $(this).attr("img3");
-    var img4 = $(this).attr("img4");
-    var img5 = $(this).attr("img5");
-    var title = $(this).attr("title");
-    var price = $(this).attr("price");
-    var desc = $(this).attr("desc");
-
-    console.log(imgurl1);
-    var goodStr = {
-      code: code,
-      imgurl1: imgurl1,
-      img1: img1,
-      img2: img2,
-      img3: img3,
-      img4: img4,
-      img5: img5,
-      title: title,
-      price: price,
-      desc: desc,
-    };
-    // window.location.href = "list.html";
+    //判断本地存储是否有数据
+    if (localStorage.getItem("dan")) {
+      var goodsArr = JSON.parse(localStorage.getItem("dan"));
+    } else {
+      var goodsArr = [];
+    }
+    goodsArr.push({ code: code });
     //更新本地存储的数据
-    localStorage.setItem("goods", JSON.stringify(goodStr));
+    localStorage.setItem("goods", JSON.stringify(goodsArr));
   });
 });

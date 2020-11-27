@@ -77,9 +77,11 @@
           top: 30px;
         }
         em {
+          display: block;
           float: left;
           margin-left: 73px;
           line-height: 80px;
+          cursor: pointer;
         }
       }
     }

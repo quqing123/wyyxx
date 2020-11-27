@@ -23,7 +23,8 @@
         .main-listt .mainn-row .main-xia .main-left .list-left {
           position: relative;
           width: 428px;
-          height: 428px; }
+          height: 428px;
+          border: 1px solid #ddd; }
           .main-listt .mainn-row .main-xia .main-left .list-left img {
             display: block;
             width: 100%;
@@ -177,6 +178,7 @@
             float: left;
             background: #f5f3ef; }
           .main-listt .mainn-row .main-xia .list-right .btnss .jiaru-btn {
+            cursor: pointer;
             display: block;
             text-align: center;
             float: left;
